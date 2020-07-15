@@ -30,7 +30,12 @@ main{
     display: grid;
     grid-template-columns: minmax(1fr,30%) 2fr;
 }
-
+#img-div{
+    
+}
+#img-caption{
+    text-align: center;
+}
 #portrait{
     display:block;
     width:470px;
