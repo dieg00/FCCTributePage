@@ -3,9 +3,9 @@ body{
     font-family:sans-serif;
 }
 
-.full-grid{
+#main{
     display: grid;
-    grid-template-rows: 20% 4fr 0.5fr;
+    grid-template-rows: minmax(50px, 10%) 4fr 0.5fr;
     margin:0;
 }
 
@@ -18,7 +18,7 @@ main{
     background-color: green;
 }
 
-h1{
+#title{
     color: white;
     text-align: center;
     font-family: Oswald, monospace;
