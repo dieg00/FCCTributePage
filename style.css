@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+
+.full-grid{
+    display: grid;
+    grid-template-rows: 20% 4fr 0.5fr;
+    margin:0;
+}
+
+header{
+    background-color: black;
+    margin:0;
+}
+
+main{
+    background-color: green;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Oswald, monospace;
+    font-size:40px;
+}
+
+#biography-info{
+    display: grid;
+    grid-template-columns: minmax(1fr,30%) 2fr;
+}
+
+#portrait{
+    display:block;
+    width:470px;
+    height:auto;
+    grid-row:1/2;
+}
+
