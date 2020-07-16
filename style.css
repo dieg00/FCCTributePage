@@ -9,6 +9,9 @@ body{
     margin:0;
 }
 
+p{
+    font-family: Montserrat, sans-serif;
+}
 header{
     background-color: black;
     margin:0;
@@ -16,11 +19,11 @@ header{
 }
 
 main{
-    background-color: green;
+    background-color: #f2f2f2;
 }
 
 #title{
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     font-family: Oswald, monospace;
     font-size:40px;
@@ -28,10 +31,11 @@ main{
 
 #biography-info{
     display: grid;
-    grid-template-columns: minmax(1fr,30%) 2fr;
+    grid-template-columns: minmax(50%,400px) auto;
 }
 #img-div{
-    
+    grid-column: 1/2;
+    justify-self:center;
 }
 #img-caption{
     text-align: center;
@@ -41,5 +45,9 @@ main{
     width:470px;
     height:auto;
     grid-row:1/2;
+    padding-top: 10%;
 }
 
+#biography-text{
+    padding: 10%;
+}
