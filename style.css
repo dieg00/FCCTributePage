@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family:sans-serif;
+    background-color: #f2f2f2;
 }
 
 #main{
@@ -18,6 +19,11 @@ header{
     align-items: center;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 main{
     background-color: #f2f2f2;
 }
