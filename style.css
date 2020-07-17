@@ -88,6 +88,7 @@ hr{
     color: grey;
     size: 3px;
     width: 95%;
+    display: block;
 }
 
 #footer-more-info{
