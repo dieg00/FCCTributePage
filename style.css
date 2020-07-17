@@ -6,7 +6,7 @@ body{
 
 #main{
     display: grid;
-    grid-template-rows: minmax(50px, 10%) minmax(4fr,6fr) 0.4fr;
+    grid-template-rows: minmax(50px, 10%) minmax(4fr,600vh) 0.4fr;
     margin:0;
 }
 
@@ -28,7 +28,7 @@ footer{
 main{
     background-color: #f2f2f2;
     display:block;
-    overflow:auto;
+    /* overflow:auto; */
 }
 
 #title{
