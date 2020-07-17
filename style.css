@@ -23,6 +23,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    line-height:30px;
 }
 main{
     background-color: #f2f2f2;
