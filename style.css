@@ -6,7 +6,7 @@ body{
 
 #main{
     display: grid;
-    grid-template-rows: minmax(50px, 10%) 4fr 0.5fr;
+    grid-template-rows: minmax(50px, 10%) 4fr 0.4fr;
     margin:0;
 }
 
@@ -14,7 +14,7 @@ p{
     font-family: Montserrat, sans-serif;
 }
 header{
-    background-color: black;
+    background-color: #202020;
     margin:0;
     align-items: center;
 }
@@ -45,6 +45,7 @@ main{
     justify-self:center;
     align-self: center;
     grid-row: 1/2;
+
 }
 #img-div-2{
     grid-column: 2/3;
@@ -52,26 +53,46 @@ main{
     justify-self:center;
     align-self:center;
 }
-.img-caption{
+#img-caption{
     text-align: center;
+    font-size: 90%;
 }
 .portrait{
     display:block;
-    width:470px;
+    width:auto;
     height:auto;
     grid-row:1/2;
     padding-top: 10%;
+    max-width: 470px;
 }
 
-#biography-text-1{
+#tribute-info{
     padding: 10%;
     grid-row: 1/2;
     grid-column: 2/3;
     line-height: 30px;
+    padding-bottom: 0;
+    text-align: justify;
 }
 #biography-text-2{
     padding: 10%;
     grid-row: 2/3;
     grid-column: 1/2;
     line-height: 30px;
+    padding-top: 5%;
+    text-align: justify;
+}
+
+hr{
+    color: grey;
+    size: 3px;
+    width: 95%;
+}
+
+#footer-more-info{
+    align-self: center;
+}
+
+#project-info{
+    margin-right:10%;
 }
