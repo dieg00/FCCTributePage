@@ -44,10 +44,10 @@ main{
     justify-self:center;
     align-self: center;
 }
-#img-caption{
+.img-caption{
     text-align: center;
 }
-#portrait{
+.portrait{
     display:block;
     width:470px;
     height:auto;
