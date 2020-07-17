@@ -28,6 +28,7 @@ footer{
 main{
     background-color: #f2f2f2;
     display:block;
+    overflow:auto;
 }
 
 #title{
