@@ -26,6 +26,7 @@ footer{
 }
 main{
     background-color: #f2f2f2;
+    display:block;
 }
 
 #title{
@@ -100,20 +101,28 @@ hr{
 @media screen and (max-width: 800px){
     #main{
         display: grid;
-        grid-template-rows: minmax(50px, 10%) 2fr 2fr 2fr 2fr 0.4fr;
+        grid-template-rows: minmax(50px, 10%) 8fr 0.4fr;
         margin:0;
     } 
     
+    #biography-info{
+        display: grid;
+        grid-template-rows: 0.8fr 1fr 0.9fr 0.9fr;
+        grid-template-columns: 1fr;
+    }
+
     #tribute-info{
         padding: 10%;
-        grid-row: 2/3;
+        grid-row: 1/2;
+        grid-column:1/2;
         line-height: 30px;
         padding-bottom: 0;
         text-align: justify;
     }
     #biography-text-2{
         padding: 10%;
-        grid-row: 4/5;
+        grid-row: 3/4;
+        grid-column:1/2;
         line-height: 30px;
         padding-top: 5%;
         text-align: justify;
@@ -121,12 +130,24 @@ hr{
     #img-div{
         justify-self:center;
         align-self: center;
-        grid-row: 3/4;
+        grid-row: 2/3;
+        grid-column:1/2;
+        padding:0;
     
     }
     #img-div-2{
-        grid-row:5/6;
+        grid-row:4/5;
         justify-self:center;
         align-self:center;
+        grid-column:1/2;
+        width:auto;
+        max-width: 470px;
+        padding:0;
+     
+    }
+
+    #portrait-2{
+        min-width:500px;
+        max-width:80%;
     }
 }
