@@ -6,7 +6,7 @@ body{
 
 #main{
     display: grid;
-    grid-template-rows: minmax(50px, 10%) minmax(4fr,600vh) 0.4fr;
+    grid-template-rows: minmax(50px, 10%) minmax(4fr,10000vh) 0.4fr;
     margin:0;
 }
 
