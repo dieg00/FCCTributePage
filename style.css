@@ -1,159 +1,155 @@
-body{
-    margin:0;
-    font-family:sans-serif;
-    background-color: #f2f2f2;
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #f2f2f2;
 }
 
-#main{
-    display: grid;
-    grid-template-rows: minmax(50px, 10%) minmax(4fr,10000vh) 0.4fr;
-    margin:0;
+#main {
+	display: grid;
+	grid-template-rows: minmax(50px, 10%) minmax(4fr, 10000vh) 0.4fr;
+	margin: 0;
 }
 
-p{
-    font-family: Montserrat, sans-serif;
+p {
+	font-family: Montserrat, sans-serif;
 }
-header{
-    background-color: #202020;
-    margin:0;
-    align-items: center;
-}
-
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    line-height:30px;
-}
-main{
-    background-color: #f2f2f2;
-    display:block;
-    /* overflow:auto; */
+header {
+	background-color: #202020;
+	margin: 0;
+	align-items: center;
 }
 
-#title{
-    color: #f2f2f2;
-    text-align: center;
-    font-family: Oswald, monospace;
-    font-size:40px;
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	line-height: 30px;
+}
+main {
+	background-color: #f2f2f2;
+	display: block;
+	/* overflow:auto; */
 }
 
-#biography-info{
-    display: grid;
-    grid-template-columns: minmax(50%,400px) auto;
-    grid-template-rows: 50% auto;
-}
-#img-div{
-    grid-column: 1/2;
-    justify-self:center;
-    align-self: center;
-    grid-row: 1/2;
-
-}
-#img-div-2{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    justify-self:center;
-    align-self:center;
-}
-#img-caption{
-    text-align: center;
-    font-size: 90%;
-}
-.portrait{
-    display:block;
-    width:auto;
-    height:auto;
-    grid-row:1/2;
-    padding-top: 10%;
-    max-width: 470px;
+#title {
+	color: #f2f2f2;
+	text-align: center;
+	font-family: Oswald, monospace;
+	font-size: 40px;
 }
 
-#tribute-info{
-    padding: 10%;
-    grid-row: 1/2;
-    grid-column: 2/3;
-    line-height: 30px;
-    padding-bottom: 0;
-    text-align: justify;
+#biography-info {
+	display: grid;
+	grid-template-columns: minmax(50%, 400px) auto;
+	grid-template-rows: 50% auto;
 }
-#biography-text-2{
-    padding: 10%;
-    grid-row: 2/3;
-    grid-column: 1/2;
-    line-height: 30px;
-    padding-top: 5%;
-    text-align: justify;
+#img-div {
+	grid-column: 1/2;
+	justify-self: center;
+	align-self: center;
+	grid-row: 1/2;
 }
-
-hr{
-    color: grey;
-    size: 3px;
-    width: 95%;
-    display: block;
+#img-div-2 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	justify-self: center;
+	align-self: center;
 }
-
-#footer-more-info{
-    align-self: center;
+#img-caption {
+	text-align: center;
+	font-size: 90%;
 }
-
-#project-info{
-    margin-right:10%;
+.portrait {
+	display: block;
+	width: auto;
+	height: auto;
+	grid-row: 1/2;
+	padding-top: 10%;
+	max-width: 470px;
 }
 
-@media screen and (max-width: 1100px){
-    #main{
-        display: grid;
-        grid-template-rows: minmax(50px, 10%) 8fr 0.4fr;
-        margin:0;
-    } 
-    
-    #biography-info{
-        display: flex;
-        /* grid-template-rows: 0.8fr 1fr 0.9fr 0.9fr;
+#tribute-info {
+	padding: 10%;
+	grid-row: 1/2;
+	grid-column: 2/3;
+	line-height: 30px;
+	padding-bottom: 0;
+	text-align: justify;
+}
+#biography-text-2 {
+	padding: 10%;
+	grid-row: 2/3;
+	grid-column: 1/2;
+	line-height: 30px;
+	padding-top: 5%;
+	text-align: justify;
+}
+
+hr {
+	color: grey;
+	size: 3px;
+	width: 95%;
+	display: block;
+}
+
+#footer-more-info {
+	align-self: center;
+}
+
+#project-info {
+	margin-right: 10%;
+}
+
+@media screen and (max-width: 1100px) {
+	#main {
+		display: grid;
+		grid-template-rows: minmax(50px, 10%) 8fr 0.4fr;
+		margin: 0;
+	}
+
+	#biography-info {
+		display: flex;
+		/* grid-template-rows: 0.8fr 1fr 0.9fr 0.9fr;
         grid-template-columns: 1fr; */
-        flex-direction: column;
-        align-items: center;
-    }
+		flex-direction: column;
+		align-items: center;
+	}
 
-    #tribute-info{
-        padding: 10%;
-        /* grid-row: 1/2;
+	#tribute-info {
+		padding: 10%;
+		/* grid-row: 1/2;
         grid-column:1/2; */
-        line-height: 30px;
-        padding-bottom: 0;
-        text-align: justify;
-    }
-    #biography-text-2{
-        padding: 10%;
-        /* grid-row: 3/4;
+		line-height: 30px;
+		padding-bottom: 0;
+		text-align: justify;
+	}
+	#biography-text-2 {
+		padding: 10%;
+		/* grid-row: 3/4;
         grid-column:1/2; */
-        line-height: 30px;
-        padding-top: 5%;
-        text-align: justify;
-    }
-    #img-div{
-        justify-self:center;
-        align-self: center;
-        /* grid-row: 2/3;
+		line-height: 30px;
+		padding-top: 5%;
+		text-align: justify;
+	}
+	#img-div {
+		justify-self: center;
+		align-self: center;
+		/* grid-row: 2/3;
         grid-column:1/2; */
-        padding:0;
-    
-    }
-    #img-div-2{
-        /* grid-row:4/5; */
-        justify-self:center;
-        align-self:center;
-        /* grid-column:1/2; */
-        width:auto;
-        max-width: 470px;
-        padding:0;
-     
-    }
+		padding: 0;
+	}
+	#img-div-2 {
+		/* grid-row:4/5; */
+		justify-self: center;
+		align-self: center;
+		/* grid-column:1/2; */
+		width: auto;
+		max-width: 470px;
+		padding: 0;
+	}
 
-    #portrait-2{
-        min-width:500px;
-        max-width:80%;
-    }
+	#portrait-2 {
+		min-width: 500px;
+		max-width: 80%;
+	}
 }
-
